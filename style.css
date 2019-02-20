@@ -1,0 +1,98 @@
+body {
+  background-color: #B4C5E4;
+  font-family: Times, serif;
+  font-weight: 300;
+  color: #0C1821;
+  line-height: 25px;
+  font-size: 20;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+h1 {
+  color: black;
+  font-family: Times, serif;
+  font-weight: 600;
+  font-size: 35;
+  line-height:50px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.footer h3 {
+  line-height: 10px;
+  margin-bottom: 0 !important;
+}
+
+.container {
+  width: 65vw; /*importante qua il vw*/
+  margin: 0 auto; /*qui metto anche tutto in mezzo*/
+  background-color: #F7F7FF;
+}
+
+.card {
+  border-top: 1px solid black;
+  border-right: 2px solid black;
+  border-bottom: 1px solid black;
+  border-left: 2px solid black;
+}
+
+.card-text-center {
+  text-align: center;
+}
+
+.card-text-center > h2 {
+  font-size: 25;
+}
+
+ td {
+  vertical-align: top;
+ }
+
+.center-image {
+text-align: center;
+}
+
+
+#image-circle{
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+
+#image-circle:hover {
+  border-radius: 100px;
+  box-shadow: 5px 5px 2px #B4C5E4;
+}
+
+
+.resize {          /*mi serve per mettere sta foto grande come le altre*/
+  height: 450px;
+  width: 270px;
+}
+
+.inline {
+    text-align: center; /*mi mette i social al centro*/
+}
+
+.inline > li {
+  display: inline-block;  /*mette i social in orizzontale*/
+}
+
+.tratteggiato {
+  border-bottom: dotted black;
+  border-top:  dotted black;
+}
+
